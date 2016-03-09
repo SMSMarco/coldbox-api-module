@@ -1,16 +1,16 @@
-component {
+component extends='cbrestbasehandler.handlers.BaseHandler' {
 	property name='RPIService' inject='RPIService';
 		
 	function index(){
-		event.renderData( type='JSON', data='Welcome to the Raspberry Pi listing API' );
+		prc.response.setData( 'Welcome to the Raspberry Pi listing API' );
 	}	
 
 	function list(){
-		event.renderData( type='JSON', data=RPIService.list() );
+		prc.response.setData( RPIService.list() );
 	}	
 
 	function detail(){
-		event.renderData( type='JSON', data=RPIService.get( rc.ID ) );
+		prc.response.setData( RPIService.get( rc.ID ) );
 	}	
 
 

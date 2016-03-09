@@ -1,6 +1,7 @@
 component {
 
-	this.entryPoint = 'api/v1';
+	this.entryPoint = 'api/v2';
+	this.dependencies = [ 'cbrestbasehandler' ];
 
 	function configure() {
 		
