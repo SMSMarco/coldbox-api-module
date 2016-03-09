@@ -1,0 +1,16 @@
+{
+    "name":"Example API v1",
+    "version":"1.0.0",
+    "author":"Brad Wood ",
+    "homepage":"https://github.com/bdw429s/coldBox-api-module",
+    "slug":"coldbox-api-module-v1",
+    "shortDescription":"This is an example API in a module",
+    "type":"modules",
+    "keywords":"ColdBox,REST,Example,module,API",
+    "private":false,
+    "ignore":[
+        "**/.*",
+        "test",
+        "tests"
+    ]
+}
