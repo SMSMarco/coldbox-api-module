@@ -1,9 +1,9 @@
 {
-    "name":"Example API v2",
-    "version":"2.0.0",
+    "name":"Example API v3",
+    "version":"3.0.0",
     "author":"Brad Wood ",
     "homepage":"https://github.com/bdw429s/coldBox-api-module",
-    "slug":"coldbox-api-module-v2",
+    "slug":"coldbox-api-module-v3",
     "shortDescription":"This is an example API in a module",
     "type":"modules",
     "keywords":"ColdBox,REST,Example,module,API",
